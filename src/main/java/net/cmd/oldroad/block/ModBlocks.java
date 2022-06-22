@@ -21,7 +21,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, OldRoad.MOD_ID);
 
-    public static final RegistryObject<Block> MAGNET_GUN = registerBlock("magnet_gun",
+    public static final RegistryObject<Block> MAGNET = registerBlock("magnet",
             () -> new Block(BlockBehaviour.Properties.of(Material.CLAY).strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.OLDROAD_TAB);
 
 

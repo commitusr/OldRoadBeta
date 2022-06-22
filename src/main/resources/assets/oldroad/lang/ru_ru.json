@@ -1,6 +1,7 @@
 {
   "item.oldroad.artifact": "Артефакт",
   "item.oldroad.wine": "Вино",
-  "block.oldroad.magnet_gun": "заряжённый электро-частицами пистолет диэлектрической проницаемости и индукционным током",
-  "itemGroup.oldroadtab" : "Артефакты"
+  "block.oldroad.magnet": "Блок магнита",
+  "itemGroup.oldroadtab" : "Артефакты",
+  "item.oldroad.pistole" : "Магнитный пистолет"
 }

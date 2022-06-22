@@ -1,6 +1,0 @@
-{
-  "parent": "block/cobe_all",
-  "textures": {
-   "all": "oldroad:block/magnet_gun"
-  }
-}
