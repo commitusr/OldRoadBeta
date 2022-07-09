@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 48],
 	"textures": {
-		"0": "block/svk",
-		"particle": "block/svk"
+		"0": "oldroad:item/svk",
+		"particle": "oldroad:item/svk"
 	},
 	"elements": [
 		{

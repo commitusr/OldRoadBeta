@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 48],
 	"textures": {
-		"0": "block/db",
-		"particle": "block/db"
+		"0": "oldroad:item/db",
+		"particle": "oldroad:item/db"
 	},
 	"elements": [
 		{

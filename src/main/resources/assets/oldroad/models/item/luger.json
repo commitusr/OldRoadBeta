@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/luger",
-		"particle": "block/luger"
+		"0": "oldroad:item/luger",
+		"particle": "oldroad:item/luger"
 	},
 	"elements": [
 		{

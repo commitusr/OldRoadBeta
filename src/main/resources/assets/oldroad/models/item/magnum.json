@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [48, 32],
 	"textures": {
-		"0": "block/magnum",
-		"particle": "block/magnum"
+		"0": "oldroad:item/magnum",
+		"particle": "oldroad:item/magnum"
 	},
 	"elements": [
 		{

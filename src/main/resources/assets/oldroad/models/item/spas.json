@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [48, 48],
 	"textures": {
-		"0": "block/spas",
-		"particle": "block/spas"
+		"0": "oldroad:item/spas",
+		"particle": "oldroad:item/spas"
 	},
 	"elements": [
 		{

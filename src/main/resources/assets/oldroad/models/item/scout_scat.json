@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [48, 48],
 	"textures": {
-		"particle": "block/scout_scat"
+		"particle": "oldroad:item/scout_scat"
 	},
 	"elements": [
 		{
