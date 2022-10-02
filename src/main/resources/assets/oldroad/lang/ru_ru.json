@@ -32,6 +32,7 @@
   "item.oldroad.winchester" : "Винчестер",
   "item.oldroad.wx18n" : "М416",
   "item.oldroad.vss" : "ВСС Винторез",
-  "item.oldroad.dzushanka": "тест Helmet"
-
+  "item.oldroad.dzushanka": "тест Helmet",
+  "item.oldroad.gasmask": "тест Helmet2",
+  "block.oldroad.camera": "Камера"
 }

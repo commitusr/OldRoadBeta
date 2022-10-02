@@ -1,7 +1,9 @@
 package net.cmd.oldroad.Item;
 
 /*import net.cmd.oldroad.Item.custom.ModArmorItem;*/
+import net.cmd.oldroad.Item.custom.GasmaskArmorItem;
 import net.cmd.oldroad.Item.custom.ModArmorItem;
+import net.cmd.oldroad.Item.custom.ushankaArmorItem;
 import net.cmd.oldroad.OldRoad;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorItem;
@@ -111,9 +113,12 @@ public class ModItems {
             ()-> new Item(new Item.Properties().tab(ModCreativeModeTab.OLDROAD_TAB).stacksTo(1)));
 
     public static final RegistryObject<Item> DZUSHANKA = ITEMS.register("dzushanka",
-            () -> new ModArmorItem(ModArmorMaterials.ARTEFACT, EquipmentSlot.HEAD,
+            () -> new ushankaArmorItem(ModArmorMaterials.ARTEFACT, EquipmentSlot.HEAD,
                     new Item.Properties().tab(ModCreativeModeTab.OLDROAD_TAB)));
 
+    public static final RegistryObject<Item> GASMASK = ITEMS.register("gasmask",
+            () -> new GasmaskArmorItem(ModArmorMaterials.ARTEFACT, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(ModCreativeModeTab.OLDROAD_TAB)));
 
 
 

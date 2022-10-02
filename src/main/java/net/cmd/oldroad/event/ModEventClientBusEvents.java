@@ -1,8 +1,10 @@
 package net.cmd.oldroad.event;
 
-import net.cmd.oldroad.Item.custom.ModArmorItem;
+import net.cmd.oldroad.Item.custom.GasmaskArmorItem;
+import net.cmd.oldroad.Item.custom.ushankaArmorItem;
 import net.cmd.oldroad.OldRoad;
-import net.cmd.oldroad.entity.clinet.armor.ModArmorRender;
+import net.cmd.oldroad.entity.clinet.armor.GasmaskArmorRender;
+import net.cmd.oldroad.entity.clinet.armor.UshankaArmorRender;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -13,6 +15,7 @@ import software.bernie.geckolib3.renderers.geo.GeoArmorRenderer;
 public class ModEventClientBusEvents {
     @SubscribeEvent
     public static void registerArmorRenderers(final EntityRenderersEvent.AddLayers event) {
-        GeoArmorRenderer.registerArmorRenderer(ModArmorItem.class, new ModArmorRender());
+        GeoArmorRenderer.registerArmorRenderer(ushankaArmorItem.class, new UshankaArmorRender());
+        GeoArmorRenderer.registerArmorRenderer(GasmaskArmorItem.class, new GasmaskArmorRender());
     }
 }

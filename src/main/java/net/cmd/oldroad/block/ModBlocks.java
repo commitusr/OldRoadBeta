@@ -3,10 +3,12 @@ package net.cmd.oldroad.block;
 import net.cmd.oldroad.Item.ModCreativeModeTab;
 import net.cmd.oldroad.Item.ModItems;
 import net.cmd.oldroad.OldRoad;
+import net.cmd.oldroad.block.custom.CameraBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -24,6 +26,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> MAGNET = registerBlock("magnet",
             () -> new Block(BlockBehaviour.Properties.of(Material.CLAY).strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.OLDROAD_TAB);
 
+    public static final RegistryObject<Block> CAMERA = registerBlock("camera",
+            () -> new CameraBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noOcclusion()), ModCreativeModeTab.OLDROAD_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
